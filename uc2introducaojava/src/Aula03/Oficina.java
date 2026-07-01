@@ -1,8 +1,9 @@
 package Aula03;
-
+import java.text.DecimalFormat;
 public class Oficina {
 
 	public static void main(String[] args) {
+		DecimalFormat formato = new DecimalFormat("#,##0.00");
 		double v1, v2, soma, subtracao, multiplicacao, divisao, resto;
 
 		v1 = 100;
@@ -30,6 +31,9 @@ public class Oficina {
 		System.out.printf("Total: R$ %.2f%n", multiplicacao);
 		System.out.printf("Total: R$ %.2f%n", divisao);
 		System.out.printf("Total: R$ %.2f%n", resto);
+		
+		System.out.println("Valor formatado: " + formato.format(soma));
+
 	}
 
 }
