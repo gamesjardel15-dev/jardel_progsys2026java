@@ -3,8 +3,17 @@ package Aula07;
 public class Atividade3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		double[] notas = {8.5, 7.0, 9.0};
+        double soma = 0;
+        double media;
 
+        for (int i = 0; i < notas.length; i++) {
+            soma = soma + notas[i];
+        }
+
+        media = soma / notas.length;
+
+        System.out.printf("Média do aluno: %.2f%n", media);
 	}
 
 }

@@ -12,7 +12,12 @@ public class aula7 {
 	for(String nome : nomes) {
 	System.out.println(nome);
 	
-	   }
+	}
+	
+	
+	
+	
+	
 	
 	}
 	

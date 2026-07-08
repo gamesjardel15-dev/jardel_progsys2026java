@@ -1,37 +1,33 @@
 package Aula07;
 import java.util.ArrayList;
 import java.util.Scanner;
-public class desafio3 {
+public class desafio11 {
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
+
         ArrayList<String> lista = new ArrayList<>();
 
         int opcao;
 
         do {
             System.out.println("===== MENU =====");
-            System.out.println("1 - Cadastrar produto");
-            System.out.println("2 - Listar produtos");
-            System.out.println("3 - Remover produto");
+            System.out.println("1 - Cadastrar");
+            System.out.println("2 - Listar");
             System.out.println("0 - Sair");
             System.out.print("Escolha uma opção: ");
-            opcao = entrada.nextInt();
 
+            opcao = entrada.nextInt();
             entrada.nextLine();
 
             switch (opcao) {
                 case 1:
-                	System.out.println("Opção 1 Cadastrar  produto");
+                    System.out.println("Área de cadastro.");
                     break;
 
                 case 2:
-                	System.out.println("Opção 2 Listar produtos");
+                    System.out.println("Área de listagem.");
                     break;
-                    
-                case 3:
-                	System.out.println("Opção 3 Remover produtos");
-                	break;
 
                 case 0:
                     System.out.println("Sistema encerrado.");
@@ -45,8 +41,7 @@ public class desafio3 {
 
         } while (opcao != 0);
 
-        entrada.close();	
-
+        entrada.close();
 	}
 
 }
