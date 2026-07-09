@@ -9,5 +9,6 @@ public class PessoaNome {
 	        System.out.println("Olá, meu nome é " + nome);
 	        System.out.println("Tenho " + idade + " anos.");
 	        System.out.println("Moro em " + cidade + ".");
+	        
 	    }
 }
