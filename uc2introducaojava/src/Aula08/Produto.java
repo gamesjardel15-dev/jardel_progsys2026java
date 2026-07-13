@@ -2,8 +2,8 @@ package Aula08;
 
 public class Produto {
 	String nome;
-     int estoque;
-	 double preco;
+    int estoque;
+	double preco;
 	public static void main(String[] args) {
 		Produto produto1 = new Produto();
 
